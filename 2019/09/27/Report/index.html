@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head><meta name="generator" content="Hexo 3.9.0">
+
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Abstract:In this independent research, a numerical simulation model is used to simulate the dehydration process when producing isobutylene from t-buty">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Richard">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Report">
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Richard&#39;s blog">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+
+    <meta name="twitter:card" content="summary">
+    
+
+    <!-- Title -->
+    
+    <title>Report - Richard&#39;s blog</title>
+
+    <!-- Tachyons Core CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Analytics --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+    
+
+
+</head>
+
+
+<body>
+
+<!-- hexo-inject:begin --><!-- hexo-inject:end --><!-- Main Content -->
+<!-- Banner -->
+<!-- Banner -->
+<div class="w-100 bg-1 ph5-ns ph3 text-light">
+    
+    <nav class="db dt-l w-100 mw8 center border-box pv3">
+        <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="Richard's blog">
+            <img src="http://www.codeblocq.com/assets/projects/hexo-theme-anodyne/assets/anodyne.svg" class="dib h3" alt="Richard's blog">
+        </a>
+        <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/" 
+                    title="Home">
+                    Home
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/about" 
+                    title="About Me">
+                    About Me
+                </a>
+            
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="w-100 mw8 center vh-40 dt">
+        <div class="dtc v-mid white">
+            <h1 class="f1-l f2-m tc tc-m tl-ns">Report</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">2019-09-27</p>
+        </div>
+    </div>
+
+    <!-- Icon -->
+    <div class="relative w-100 mw8 center white dn dn-m db-ns">
+        <i class="header-icon fa fa-file-text-o"></i>
+    </div>
+</div>
+
+<!-- Content -->
+<div class="w-100 ph2 ph4-m ph5-l mv5 mv6-l">
+    <div class="content">
+        <div class="mw8 center">
+            <div class="cf">
+                <div class="fl w-100 w-70-l mw7 left fw3 lh-copy pr4-ns pr0-m post-content">
+                    <!-- Tags Vertical -->
+                    
+
+                    <!-- Main Post Content -->
+                    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+<h3 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract:"></a>Abstract:</h3><p>In this independent research, a numerical simulation model is used to simulate the dehydration process when producing isobutylene from t-butyl alcohol. The dehydration process is used to improve the conversion rate in the production. A lab-scale experiment is studied to figure out the inverse proportional relation between the concentration of water and the rate of reaction. Data of reaction are collected to model the dehydration process. The result can be further extended to an industry level where the amount of catalyst and the volume of reactor in this experiment can be calculated. </p>
+<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction:"></a>Introduction:</h3><p>Alkenes find many diverse applications in industry. They are used as starting materials in the syntheses of alcohols, plastics, laquers, detergents, and fuels. More specific to this project, butylene, which is a specific of alkenes, is commonly used as petrochemical. Historically, isobutylene was reacted with methanol to form methyl tertiary butyl ether (MTBE), which was a cleaner replacement of tetra ethyl lead as stated in the 1990’s Clean Air Act Amendments. MTBE had been a widely-used oxygenate since then, until a later Clean Air Act in 2000s recommended to use ethanol instead for an even smaller environmental impact. Although MTBE has a small share of the gasoline additive market today, it took the crucial role in phase while people were switching from gasoline containing lead to unleaded petroleum products, which was  a big step towards clean and harmless energy. In addition, through Alkylation with butane, isobutylene can be used to produce isooctane, which is another anti-knocking compound.</p>
+<p>Knowing the importance of isobutylene and the great availability of butylene from crude oil separation, it’s natural to then carefully study the purification to production of isobutylene. It was observed that the presence of water largely affect the conversion rate of isobutylene during the actual production, which generating isobutylene from tert-butyl alcohol (TBA). In order to design an optimized refinery process, it is essential to study the mechanism of the dehydration of TBA for a mathematical model that can quantitatively describes and predicts the effects of water. </p>
+<p>This report contains a scale-up study based on a lab-scale experiment. The reaction used in this study is the dehydration of T-butyl acid which yields gaseous isobutylene under room conditions. This reaction was experimented in lab scale and is being modelled up into industrial scale. The yielding of gaseous alkene allows an easy separation between the remainder of the reactants that were left over from the reaction and the produced product because t-butyl acid is a tertiary alcohol which has a high boiling point. Another reason for using t-butyl acid as reactant is because there is no minor product after the reaction which means that the product is easy to monitor. While looking up experiment data, I noticed that there is a drastic decrease in the rates of reaction as the concentration of water increases. However, it is impossible to completely separate t-butyl acid and water since one cannot separate alcohol and water. This means that a drying system is needed in order to achieve the optimal reaction rate. I believe that this reaction is best performed in a PRF reactor because it makes the drying process easier. </p>
+<h3 id="Experimental-method"><a href="#Experimental-method" class="headerlink" title="Experimental method:"></a>Experimental method:</h3><p>The dehydration of t-butyl alcohol catalyzed by sulfonic acid resin was studied in order to determine the most optimal catalyst. In this study, a charge of about 250g of t-butyl alcohol, was brought to reaction temperature and contacted with isobutylene flowing through a sparer until the solution was saturated with isobutylene. A timer was started as catalyst was charged to the reactor. Neither side reaction nor uncatalyzed reaction was observed. Reaction rates were independent of stirring rate and the ratio of reactant to catalyst mass, indicating effects of liquid-phase mass transfer were negligible. The apparatus used in this experiment is shown in figure 1. A timer was started as catalyst was charged to the reactor, and off-gas flow was metered until approximately 10% of the t-butyl alcohol had reacted, equivalent to about 50 moles alcohol reacted per equivalent of sulfonic acid groups in the catalyst. </p>
+<p><img src="/2019/09/27/Report/1.png" alt="1.png"></p>
+<p>Results were obtained between 58 and 65 degrees Celsius with a modified procedure. The t-butyl alcohol was not presaturated with isobutylene; conversions were determined by gas chromatographic analysis of liquid samples periodically drawn from the reactor until the liquid was saturated with isobutylene. Subsequent measurements relied on the off-gas metering as before. The column of the gas chromatograph was maintained at 185 degrees Celcius and it resolved water, isobutylene, and t-butyl alcohol and was calibrated with weighed standards of water in alcohol and isobutylene in alcohol.</p>
+<p>From the experimental method, Vial E2 was chosen to formulate a graph to present the change in reaction rate as time advances. The rate of reaction was calculated using the formula </p>
+<p><img src="/2019/09/27/Report/l1.png" alt="l1.png"></p>
+<p>In the original equation the power of (KwCw) is γ, and in this circumstance the value of γ is 2. The graph is shown in figure 2. As seen in figure 2, the rate of reaction shows a decreasing trend as time increases. A conclusion could be drawn that the concentration of water decreases the reaction rate because as the reaction progresses, more water is present in the system because water is a product of this reaction. And as more water is present in the system, the reaction rate slows down. </p>
+<p><img src="/2019/09/27/Report/3.png" alt="3.png"></p>
+<h3 id="Discussion"><a href="#Discussion" class="headerlink" title="Discussion:"></a>Discussion:</h3><p>The experiment and data analysis mentioned in this paper are concluded from current literature. Several crucial experiment setups are concluded as follows. </p>
+<p>The reason why TBA was chosen was because due to it being a tertiary alcohol, thus having a relatively more stable structure, the product after dehydration process is stable and no minor product would be produced, which means that it is easy to manage the products produced and separate the desired product from the side products. In addition, since that TBA has a high boiling point, but the alkene is a gas at room temperature, it is easy to separate between the produced TBA and the unreacted reactants. </p>
+<p>The acidic dehydration process requires a drying process. And the drying agent best fit for this system is industrial derite because it can be circulated and reused. While using the PFR reactor, the reactant is put into the reactor with the catalyst  to produce the product, then a separation mechanism is used to separate the product and the catalyst used so that the catalyst can be recycled into another usage while the product is being put under drying process to produce the designated isobutylene. And then the produced isobutylene can be separated from the unreacted reactants so that the isobutylene can be stored under a high pressure condition so it does not undergo the reverse reaction and return into t-butyl alcohol. </p>
+<p>The size of the reactor is also important since that such reaction requires a certain amount of space to function. Quoting the formula above while plugging in the literature values,  </p>
+<p><img src="/2019/09/27/Report/l2.png" alt="l2.png"></p>
+<p>we can use that result to calculate the mass of catalyst needed. </p>
+<p><img src="/2019/09/27/Report/l3.png" alt="l3.png"></p>
+<p>As presented by the equations above, 154.206 kilograms of catalyst is needed to operate the reaction on an industrial scale and that the volume of the reactor needed is around 141.7 Liters. A possible challenge could be present if PFR was used due to the fact that since the reactor is supposed to be completely sealed, if the catalyst is cycled, it is possible that the reactors might not be perfectly sealed, thus affecting the percent yield of the designated products.</p>
+<p>There are limitations to the literatures used in this study. Due to the fact that these papers present relatively older studies, the instruments used in those experiments could be inferior, thus causing an error in the measurement of the flow rates. In addition, while calculating the flow rate, a timer was started when gas bubbles were observed by lab technicians. Such procedure presents possible human calculation errors as well as the possibility that the reaction proceeded before lab technicians could physically observe the evolution of gas. And a mistake in the calculation of flow rate would transfer to erroneous calculated reaction rates.</p>
+
+                    
+                    <!-- Tags Bottom -->
+                    
+
+                    <!-- Comments -->
+                    
+
+
+
+                </div>
+                <div class="fl w-100 w-30-l center fw3 lh-copy pl4-ns tl black-50">
+                    
+                    <hr class="dn-l mw4 black-50 mt5" />
+                    
+                    <!-- Widget 1: About -->
+                    <div class="mt5 mt0-l">
+    <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
+        <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
+            <img src="/avatar.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="Richard">
+        </div>
+        <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
+            
+        </div>
+    </article>
+</div>
+
+                    <hr class="dn-l mw4 black-50 mt5" />
+                    
+                    <!-- Widget 2: Categories -->
+                    
+
+                    <!-- Widget 3: Recent Posts -->
+                    <div class="mt5 tc tl-l">
+    <h3>Recent Posts</h3>
+    
+        <p>
+            <a href="/2019/09/27/Report/">Report</a>
+        </p>
+    
+        <p>
+            <a href="/2019/09/27/Project-Summary/">Project Summary</a>
+        </p>
+    
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="bg-1 ph2 ph5-ns pv5">
+        <div class="mv8">
+            <div class="center tc">
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="https://github.com/klugjo/hexo-theme-anodyne" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="mailto:test@example.com" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </div>
+                
+            </div>
+            <div class="f6 f5-ns center tc white pt5 fw3">
+                
+            </div>
+        </div>
+    </div>
+
+<!-- After Footer -->
+<!-- Disqus Comments --><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+
+
+
+</body>
+
+</html>
